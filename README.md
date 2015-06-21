@@ -14,6 +14,7 @@ The tidy data set was created using the following steps, in order:
 * Since the subject data is in separate files from the observations, it is comibined to its own data table, called subjects
 * The observations data doesn't have headers, so the column names from features.txt is pulled in to a datasetColumns set, converted to a vector, and applied to names the observations data table
 * Since the activity data is encoded, a lookup set is created to merge later for descriptive activity names
+* Only the columns that contain means or standard deviations are filtered in the data
 * The observations, activityCode and subjects data are in the same order, so to add the activity codes and subjects to the observations set, the respective data columns are added to the beginning of the data table.
 * The observations data table is updated with descriptive names as describes in the Code book
 * The activity names are merged into the observations data set and "Activity_Id" is removed
