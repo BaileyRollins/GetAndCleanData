@@ -1,5 +1,5 @@
 #path for the data (if not in working directory)
-datapath <- "C:\\Users\\bailey\\Desktop\\Data Science\\3 - Gathering Data\\ProjectData\\UCI HAR Dataset\\"
+datapath <- "" #"C:\\Users\\bailey\\Desktop\\Data Science\\3 - Gathering Data\\ProjectData\\UCI HAR Dataset\\"
 
 #load the observations training and test data
 observations <- rbind(
