@@ -8,7 +8,8 @@ A thorough description of how the data was collected and transformed may be foun
 
 __Code book:__
 * Subject_Id - unique identified of the subject, integer from 1-30
-* Activity - description of the activity performed, string with one of the following values:
+* Activity - description of the activity performed, string with one of the following values: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS"
+, "SITTING", "STANDING", "LAYING"
 * All variables are conveyed as averages of the raw data based on Subject_Id and Activity and are prefixed with "Average\_"
 * The variables have been renamed from the original features in the following format:
 * Average\_"Domain"\_"Measuring Device"\_"Acceleration Type"\_"Measurement"\_"Type of Calculation"\_(if applicable, axis)
