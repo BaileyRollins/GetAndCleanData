@@ -1,5 +1,5 @@
 __Raw Data:__
-The raw data come from the project described here:
+The raw data comes from the project described here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
 and may be downloaded from here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -10,8 +10,8 @@ __Code book:__
 * Subject_Id - unique identified of the subject, integer from 1-30
 * Activity - description of the activity performed, string with one of the following values:
 * All variables are conveyed as averages of the raw data based on Subject_Id and Activity and are prefixed with "Average\_"
-*The variables have been renamed from the original features in the following format:
-*Average\_"Domain"\_"Measuring Device"\_"Acceleration Type"\_"Measurement"\_"Type of Calculation"\_(if applicable, axis)
+* The variables have been renamed from the original features in the following format:
+* Average\_"Domain"\_"Measuring Device"\_"Acceleration Type"\_"Measurement"\_"Type of Calculation"\_(if applicable, axis)
   - with Domain as either "Time" or "Frequency"
   - with Measuring Device as either "Accelerometer" or "Gyroscope"
   - with Acceleration Type as either "Body" or "Gravity"

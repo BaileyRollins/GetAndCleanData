@@ -1,5 +1,5 @@
 __Raw Data:__
-The raw data come from the project described here:
+The raw data comes from the project described here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
 and may be downloaded from here:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
