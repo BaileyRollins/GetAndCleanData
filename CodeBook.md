@@ -16,13 +16,14 @@ __Code book:__
   - with Domain as either "Time" or "Frequency"
   - with Measuring Device as either "Accelerometer" or "Gyroscope"
   - with Acceleration Type as either "Body" or "Gravity"
-  - with Measurement as Acceleration, Jerk, AccelerationMagnitude or JerkMagnitude
-  - with Type of Calculation as either Mean or StandardDeviation
+  - with Measurement as "Acceleration", "Jerk", "AccelerationMagnitude" or "JerkMagnitude"
+  - with Type of Calculation as either "Mean" or "StandardDeviation"
   - with (axis) as either X, Y or Z, if applicable.
   - all units are signals that have been normalized between -1 and 1
   - the longer names are a bit verbose, but helped me (and hopefully others) in understanding the true meaning of the column
 
 _The columns that use the criteria above are listed here:_
+
 Average_Time_Accelerometer_Body_Acceleration_Mean_X
 Average_Time_Accelerometer_Body_Acceleration_Mean_Y
 Average_Time_Accelerometer_Body_Acceleration_Mean_Z
