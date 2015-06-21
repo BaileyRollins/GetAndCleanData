@@ -13,9 +13,15 @@ The tidy data set was created using the following steps, in order:
 * The observations data doesn't have headers, so the column names from features.txt is pulled in to a datasetColumns set, converted to a vector, and applied to names the observations data table
 * Since the activity data is encoded, a lookup set is created to merge later for descriptive activity names
 * The observations, activityCode and subjects data are in the same order, so to add the activity codes and subjects to the observations set, the respective data columns are added to the beginning of the data table.
-* The observations data table is updated with descriptive names
-#the format used for keys is "type"_Id
-#the format used for variables is "Domain"_"Measuring Device"_"Base of Measurement"_"Measurement"_"Type of Calculation"_(if applicable, axis)
+* The observations data table is updated with descriptive names as describes in the Code book
 * The activity names are merged into the observations data set and "Activity_Id" is removed
 * The averages of each of the (non-key) columns is calculated by Subject_Id and Activity.
 * The column names are updated to properly reflect that the data contains averages
+
+References:
+========
+Per data set license:
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-
+Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-
+Friendly Support Vector Machine. International Workshop of Ambient Assisted Living 
+(IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
