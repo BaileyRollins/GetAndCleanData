@@ -9,9 +9,9 @@ A thorough description of how the data was collected and transformed may be foun
 __Code book:__
 * Subject_Id - unique identified of the subject, integer from 1-30
 * Activity - description of the activity performed, string with one of the following values:
-All variables are conveyed as averages of the raw data based on Subject_Id and Activity and are prefixed with "Average_"
-The variables have been renamed fro the original features in the following format:
-Average_"Domain"_"Measuring Device"_"Acceleration Type"_"Measurement"_"Type of Calculation"_(if applicable, axis)
+* All variables are conveyed as averages of the raw data based on Subject_Id and _Activity and are prefixed with "Average_"_
+The variables have been renamed from the original features in the following format:
+Average_"Domain"`_"Measuring Device"`_"Acceleration Type"`_"Measurement"`_"Type of Calculation"`_(if applicable, axis)
   - with Domain as either "Time" or "Frequency"
   - with Measuring Device as either "Accelerometer" or "Gyroscope"
   - with Acceleration Type as either "Body" or "Gravity"
