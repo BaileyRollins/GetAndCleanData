@@ -18,7 +18,7 @@ The tidy data set was created using the following steps, in order:
 * The activity names are merged into the observations data set and "Activity_Id" is removed
 * The averages of each of the (non-key) columns is calculated by Subject_Id and Activity into a new data table called observationsAverage.
 * The column names are updated to properly reflect that the data contains averages
-* The file was writted using table.write() as observations_average.txt and row.names=FALSE.
+* The file was writted using table.write() as observation_averages.txt and row.names=FALSE.
 
 __References:__
 Per data set license:
