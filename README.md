@@ -20,10 +20,6 @@ The tidy data set was created using the following steps, in order:
 * The column names are updated to properly reflect that the data contains averages
 * The file was writted using table.write() as observations_average.txt and row.names=FALSE.
 
-References:
-========
+__References:__
 Per data set license:
-[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-
-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-
-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living 
-(IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
