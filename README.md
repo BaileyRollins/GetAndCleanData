@@ -5,6 +5,7 @@ and may be downloaded from here:https://d396qusza40orc.cloudfront.net/getdata%2F
 The assignment calls for retrieving the data related to means and standard deviations, only.  
 
 The script assumes the data is in the same folder structure as the zip file, but in the working directory.  A variable "datapath" may be set to use an alternate directory, if desired.
+All files were read via read.table with sep=""
 
 The tidy data set was created using the following steps, in order:
 * The full test and training data is combined to a data table called observations
@@ -15,8 +16,9 @@ The tidy data set was created using the following steps, in order:
 * The observations, activityCode and subjects data are in the same order, so to add the activity codes and subjects to the observations set, the respective data columns are added to the beginning of the data table.
 * The observations data table is updated with descriptive names as describes in the Code book
 * The activity names are merged into the observations data set and "Activity_Id" is removed
-* The averages of each of the (non-key) columns is calculated by Subject_Id and Activity.
+* The averages of each of the (non-key) columns is calculated by Subject_Id and Activity into a new data table called observationsAverage.
 * The column names are updated to properly reflect that the data contains averages
+* The file was writted using table.write() as observations_average.txt and row.names=FALSE.
 
 References:
 ========
