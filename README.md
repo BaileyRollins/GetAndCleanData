@@ -18,7 +18,7 @@ The tidy data set was created using the following steps, in order:
 * The observations, activityCode and subjects data are in the same order, so to add the activity codes and subjects to the observations set, the respective data columns are added to the beginning of the data table.
 * The observations data table is updated with descriptive names as describes in the Code book
 * The activity names are merged into the observations data set and "Activity_Id" is removed
-* The averages of each of the (non-key) columns is calculated by Subject_Id and Activity into a new data table called observationsAverage.
+* The averages of each of the (non-key) columns are calculated by Subject_Id and Activity into a new data table called observationsAverage.
 * The column names are updated to properly reflect that the data contains averages
 * The file was writted using table.write() as observation_averages.txt and row.names=FALSE.
 
